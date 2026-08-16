@@ -27,14 +27,6 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-on post-fs-data
-# Samsung Pay
-    mkdir /efs/pfw_data 0760 vendor_spay vendor_spay
-
-# MST/NFC Switch
-    chown vendor_spay system /dev/mst_ctrl
-    chmod 0660 /dev/mst_ctrl
-
 on boot
 #SystemPerformance - ActivityManagerPerformance
     setprop sys.config.amp_to_app_switch 6000

@@ -5,5 +5,5 @@ service cass /vendor/bin/cass
     capabilities BLOCK_SUSPEND
     disabled
 
-on post-fs-data
-    start cass
+# on post-fs-data
+#     start cass

@@ -2,3 +2,4 @@ service sec-biometrics-face-aidl /vendor/bin/hw/vendor.samsung.hardware.biometri
     class hal
     user system
     group system input uhid
+    disabled

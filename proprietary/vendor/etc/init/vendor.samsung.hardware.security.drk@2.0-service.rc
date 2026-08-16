@@ -10,3 +10,4 @@ service drk_hal /vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service
     user system
     group system
     oneshot
+    disabled
