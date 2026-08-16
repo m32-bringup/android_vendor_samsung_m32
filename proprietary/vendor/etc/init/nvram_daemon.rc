@@ -1,5 +1,8 @@
 service nvram_daemon /vendor/bin/nvram_daemon
-    class core
-    user system
+    class main
+    user root
     group system radio wifi audio bluetooth media
     oneshot
+
+on post-fs-data
+    start nvram_daemon
