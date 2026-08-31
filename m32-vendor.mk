@@ -758,9 +758,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m32/proprietary/vendor/lib/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA.so \
     vendor/samsung/m32/proprietary/vendor/lib/AVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVencCA.so \
     vendor/samsung/m32/proprietary/vendor/lib/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA.so \
-    vendor/samsung/m32/proprietary/vendor/lib/android.hardware.biometrics.common-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.biometrics.common-V1-ndk_platform.so \
-    vendor/samsung/m32/proprietary/vendor/lib/android.hardware.vibrator-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.vibrator-V2-ndk_platform.so \
-    vendor/samsung/m32/proprietary/vendor/lib/android.system.keystore2-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.system.keystore2-V1-ndk_platform.so \
     vendor/samsung/m32/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
     vendor/samsung/m32/proprietary/vendor/lib/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audio_common-aidl-cpp.so \
     vendor/samsung/m32/proprietary/vendor/lib/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audioclient-types-aidl-cpp.so \
@@ -1163,10 +1160,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m32/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
     vendor/samsung/m32/proprietary/vendor/lib64/AVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVencCA.so \
     vendor/samsung/m32/proprietary/vendor/lib64/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA.so \
-    vendor/samsung/m32/proprietary/vendor/lib64/android.hardware.biometrics.common-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.common-V1-ndk_platform.so \
     vendor/samsung/m32/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
-    vendor/samsung/m32/proprietary/vendor/lib64/android.hardware.vibrator-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.vibrator-V2-ndk_platform.so \
-    vendor/samsung/m32/proprietary/vendor/lib64/android.system.keystore2-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.system.keystore2-V1-ndk_platform.so \
     vendor/samsung/m32/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
     vendor/samsung/m32/proprietary/vendor/lib64/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audio_common-aidl-cpp.so \
     vendor/samsung/m32/proprietary/vendor/lib64/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audioclient-types-aidl-cpp.so \
